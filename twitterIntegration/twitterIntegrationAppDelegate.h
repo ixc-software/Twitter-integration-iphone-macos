@@ -7,10 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "TwitterUpdateDataController.h"
 @interface twitterIntegrationAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    TwitterUpdateDataController *twitterController;
 }
 
 @property (assign) IBOutlet NSWindow *window;
